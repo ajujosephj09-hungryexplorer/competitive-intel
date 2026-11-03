@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "gray-on-color",
+        "value": "*",
+        "files": [
+          "src/app/page.tsx"
+        ],
+        "createdAt": "2026-10-06T02:59:40.597Z",
+        "reason": "Intentional: disabled button uses muted gray-500 on gray-700 to signal non-interactive state"
+      }
+    ]
+  }
+}
